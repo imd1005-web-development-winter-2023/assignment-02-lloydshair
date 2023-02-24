@@ -1,3 +1,157 @@
-/*
-  CSS File
-*/
+body{
+    background-image: url(../WebDev/images/bake8.jpg);
+    background-repeat: no-repeat;
+    height:auto;
+    background-color: peachpuff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.first-ul{
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+}
+
+.first-ul li:nth-child(1){
+    flex-grow: 1;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+
+    border-radius: 200px;
+    font-weight: 200;
+    color: black;
+    background-color: peachpuff;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.second-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+h2.products{
+    text-align: center;
+}
+
+p.products{
+    text-align: center;
+}
+
+h2.aboutus{
+    margin-left: 210px;
+    border: 1px salmon;
+    border-radius: 10%;
+    padding: 10px;
+    width: 140px;
+    height: auto;
+    background-color: peachpuff;
+}
+
+div{
+    margin-left: 90px;
+    border: 1px salmon;
+    border-radius: 5%;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    background-color: peachpuff;
+    text-align: justify;
+}
+.third-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+
+hr.solid{
+   border-top: 100px solid salmon;
+   opacity: 0.5;
+}
+
+h2.reviews{
+    text-align: center;
+}
+
+p.review{
+    text-align: center;
+}
+
+h2.contact{
+    text-align: center;
+}
+
+div.form{
+    display: block;
+    block-size: auto;
+    text-align: center;
+    font-size: large;
+}
+.form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.textarea{
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+[type="submit"]{
+    text-align: center;
+    width: 50%;
+    background: #CC6666;
+    border-radius: 5px;
+    border:0;
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fourth-ul{
+    list-style: none;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 80px;
+
+}
+
+
+
+
